@@ -30,6 +30,8 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
+        /*"semi": [2, "always"],*/
+        "quotes": [0, "double"],
         "@typescript-eslint/adjacent-overload-signatures": "error",
         "@typescript-eslint/array-type": [
             "error",
